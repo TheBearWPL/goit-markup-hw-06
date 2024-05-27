@@ -936,3 +936,17 @@ section {
 .link-policy {
   color: #4d5ae5;
 }
+
+/* Media */
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  body {
+    background-color: blue;
+  }
+}
