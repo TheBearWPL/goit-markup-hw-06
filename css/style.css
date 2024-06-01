@@ -139,7 +139,7 @@
     background-color: #404bbf;
   }
 
-  /* [main] -> [section] (second section contains) rules */
+  /* [main] -> [section] MOBILE (second section contains) rules */
 
   .section-two {
     padding: 0;
@@ -192,7 +192,7 @@
     color: #434455;
   }
 
-  /* [main] -> [section] (third section contains) rules */
+  /* [main] -> [section] MOBILE (third section contains) rules */
 
   .section-three {
     background-color: #f4f4fd;
@@ -290,6 +290,99 @@
     text-align: center;
     color: #434455;
     margin: 8px;
+  }
+
+  /* [main] -> [section] MOBILE (fourth section contains) rules */
+
+  .section-four {
+    background-color: #ffffff;
+  }
+
+  .container-section-four {
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+
+  .h-two-section-four {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+  }
+
+  .ul-section-four {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .li-section-four {
+    background-color: #ffffff;
+    transition-timing-function: ease-out;
+    transition-duration: 500ms;
+  }
+
+  .li-section-four:hover {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    cursor: pointer;
+  }
+
+  .h-three-section-four {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .p-section-four {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+  }
+
+  .p-container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    max-width: 360px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .li-section-four:hover .p-four-app-desc {
+    transform: translateY(0);
+  }
+
+  .p-four-app-desc {
+    position: absolute;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0px;
   }
 }
 /* ----------------------------------------------------------------------------START MEDIA 768px---------------------------------------------------------------------------- */
