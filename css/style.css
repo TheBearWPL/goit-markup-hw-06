@@ -81,7 +81,215 @@
     display: flex;
     padding: 0 15px 0 15px;
     width: 320px;
-    height: 72px;
+    height: 56px;
+  }
+
+  .section-one {
+    background-color: #2e2f42;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/office.jpg);
+    max-width: 320px;
+    min-height: 432px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+
+  .h-one {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    width: 216px;
+    height: 160px;
+    display: flex;
+    margin: 0 auto 72px auto;
+  }
+
+  .button {
+    background-color: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .button:focus {
+    background-color: #404bbf;
+  }
+  .button:hover {
+    background-color: #404bbf;
+  }
+  .button:active {
+    background-color: #404bbf;
+  }
+
+  /* [main] -> [section] (second section contains) rules */
+
+  .section-two {
+    padding: 0;
+  }
+
+  .h-two-section-two {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .ul-section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 96px;
+  }
+
+  .li-item-section-two {
+  }
+
+  .h-three-section-two {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .p-section-two {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+
+  /* [main] -> [section] (third section contains) rules */
+
+  .section-three {
+    background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .container-section-three {
+    padding: 32px 0;
+  }
+
+  .h-two-section-three {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+
+  .h-three-section-three {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+
+  .ul-section-three {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+  }
+
+  .li-section-three {
+    background-color: #ffffff;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  }
+
+  .ul-social-media-three {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .li-social-media-three {
+    width: 40px;
+    height: 40px;
+  }
+
+  .link-social-media {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .link-social-media:hover {
+    background-color: #404bbf;
+  }
+
+  .link-social-media:active {
+    background-color: #404bbf;
+  }
+
+  .link-social-media:focus {
+    background-color: #404bbf;
+  }
+
+  .svg-social-media {
+    fill: #f4f4fd;
+  }
+
+  .p-section-three {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
+    margin: 8px;
   }
 }
 /* ----------------------------------------------------------------------------START MEDIA 768px---------------------------------------------------------------------------- */
