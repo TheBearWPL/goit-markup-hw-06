@@ -437,8 +437,8 @@
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-left: 16px;
     margin-bottom: 72px;
+    margin-left: 16px;
   }
 
   .studio-footer-logo-text {
@@ -461,6 +461,7 @@
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    margin-left: 96px;
   }
 
   .ul-footer {
@@ -471,6 +472,9 @@
   .li-footer {
     width: 40px;
     height: 40px;
+    align-items: center;
+    margin-bottom: 72px;
+    margin-left: 14px;
   }
 
   .footer-link-social-media {
@@ -502,11 +506,16 @@
 
   .subscribe {
     margin-bottom: 16px;
+    margin-left: 25px;
   }
 
   .form-footer {
-    display: flex;
-    gap: 24px;
+    display: column;
+  }
+
+  .label-footer {
+    transform: translateX(-25%);
+    margin-top: 16px;
   }
 
   .input-footer {
@@ -548,6 +557,242 @@
   .footer-svg-subscribe {
     margin-left: 16px;
     fill: #fff;
+  }
+
+  /* [modal] rules */
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .is-modal {
+    position: absolute;
+    padding: 72px 24px 24px 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 288px;
+    min-height: 623px;
+    background-color: #fcfcfc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .title-modal {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  .btn-modal {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .btn-modal:focus,
+  .btn-modal:hover {
+    background-color: #404bbf;
+    fill: #fff;
+    border: none;
+  }
+
+  .svg-modal {
+    position: absolute;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .svg-modal:hover:focus {
+    fill: #ffffff;
+  }
+
+  .p-modal {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .form-modal {
+    margin-bottom: 8px;
+  }
+
+  .in-label-modal {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .after-label-modal {
+    position: relative;
+  }
+
+  .after-label-modal:focus-within {
+    fill: #4d5ae5;
+  }
+
+  .input-modal {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .input-modal:active,
+  .input-modal:focus {
+    fill: #4d5ae5;
+    border-color: #4d5ae5;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .svg-two-modal {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .is-modal-two {
+    margin-bottom: 16px;
+  }
+
+  .textarea-modal {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    padding: 8px, 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 8px 16px;
+  }
+
+  .textarea-modal:focus {
+    border-color: #4d5ae5;
+  }
+
+  .checkbox-etiquette {
+    margin-bottom: 24px;
+  }
+
+  .checkbox-etiquette:focus-within {
+    fill: #fff;
+  }
+
+  .checkbox {
+    visibility: hidden;
+  }
+
+  .etiquette {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+  }
+
+  .span-etiquette {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+  }
+
+  .checkbox:checked + .etiquette .span-etiquette {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+  }
+
+  .svg-etiquette:focus-within {
+    fill: #4d5ae5;
+  }
+
+  .btn-send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0, 119px;
+    transform: translate(25%);
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px;
+  }
+
+  .link-policy {
+    color: #4d5ae5;
   }
 }
 /* ----------------------------------------------------------------------------START MEDIA 768px---------------------------------------------------------------------------- */
