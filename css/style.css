@@ -1026,6 +1026,14 @@
   color: #404bbf;
 }*/
 
+  .mobile-menu-btn {
+    display: none;
+    position: relative;
+    justify-content: center;
+    margin: 16px;
+    left: 100px;
+  }
+
   /* [main] -> [section] (first section contains) rules */
 
   .section-one {
