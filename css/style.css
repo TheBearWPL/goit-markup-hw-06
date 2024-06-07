@@ -682,6 +682,7 @@
   /* [modal] rules */
 
   .modal {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -1114,6 +1115,58 @@
   /*.li-address:active {
   color: #404bbf;
 }*/
+
+  .mobile-menu-btn {
+    display: none;
+  }
+
+  .menu-mobile {
+    display: none;
+  }
+
+  .ul-nav-header-mobile {
+    display: none;
+  }
+
+  .main-menu-mobile {
+    display: none;
+  }
+
+  .main-menu-mobile:hover {
+    display: none;
+  }
+
+  /*.after-menu-mobile::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  color: #404bbf;
+  background-color: #404bbf;
+  border-radius: 2px;
+}*/
+
+  .after-menu-mobile:nth-child(1) {
+    display: none;
+  }
+
+  .address-mobile {
+    display: none;
+  }
+
+  .ul-address-mobile {
+    display: none;
+  }
+
+  .li-address-mobile {
+    display: none;
+  }
+
+  .li-address-mobile:hover {
+    display: none;
+  }
 
   /* [main] -> [section] (first section contains) rules */
 
