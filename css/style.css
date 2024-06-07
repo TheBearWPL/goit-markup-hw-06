@@ -110,12 +110,8 @@
     position: relative;
     justify-content: center;
     margin: 16px;
-    left: 100px;
+    right: 70px;
     overflow: hidden;
-  }
-
-  .mobile-menu-btn:hover .menu-mobile {
-    transform: translateY(0);
   }
 
   .menu-mobile {
