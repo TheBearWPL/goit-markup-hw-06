@@ -213,12 +213,11 @@
 
   .ul-social-media-mobile {
     display: flex;
-    position: absolute;
     gap: 40px;
     bottom: 40px;
     left: 16px;
     align-items: center;
-    margin: 560px 24px 40px 70px;
+    margin: 560px 24px 40px 150px;
   }
 
   .mobile-color {
