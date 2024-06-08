@@ -205,6 +205,14 @@
     color: #404bbf;
   }
 
+  .ul-social-media-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    left: 16px;
+    bottom: 40px;
+  }
+
   /* [main] -> [section] MOBILE (first section contains) rules */
 
   .section-one {
