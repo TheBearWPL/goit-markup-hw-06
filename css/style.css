@@ -140,7 +140,7 @@
     transition: transform 250ms;
   }
 
-  .mobil:active ..mobile-menu-btn:is-open {
+  .mobil:is-open ..mobile-menu-btn:active {
     transform: translateY(0);
   }
 
