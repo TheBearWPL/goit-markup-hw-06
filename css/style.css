@@ -107,6 +107,8 @@
 
   .mobile-menu-btn {
     margin: 16px;
+    position: absolute;
+    right: 16px;
   }
 
   .menu-mobile {
