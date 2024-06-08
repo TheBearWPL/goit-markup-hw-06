@@ -207,10 +207,16 @@
 
   .ul-social-media-mobile {
     display: flex;
-    justify-content: center;
+    position: absolute;
     gap: 40px;
-    left: 16px;
     bottom: 40px;
+    left: 16px;
+    align-items: center;
+    margin: 560px 24px 40px 70px;
+  }
+
+  .mobile-color {
+    color: #4d5ae5;
   }
 
   /* [main] -> [section] MOBILE (first section contains) rules */
