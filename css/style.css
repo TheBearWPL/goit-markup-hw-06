@@ -1281,7 +1281,7 @@
   }
 
   .li-item-section-two {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 32px) / 2);
   }
 
   .icon {
