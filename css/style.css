@@ -140,8 +140,7 @@
     transition: transform 250ms;
   }
 
-  .mobil.is-open,
-  .mobile-menu-btn.is-open {
+  .mobil.is-open {
     transform: translateY(0);
   }
 
@@ -992,7 +991,7 @@
   .container-header {
     display: flex;
     padding: 0 15px 0 15px;
-    width: 1158px;
+    width: 768px;
     height: 72px;
   }
 
@@ -1012,7 +1011,7 @@
     width: calc(100% - 76px);
     color: #4d5ae5;
     text-decoration: none;
-    margin-right: 76px;
+    margin-right: 120px;
   }
 
   .studio-logo-text {
