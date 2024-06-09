@@ -1082,6 +1082,7 @@
 
   .address {
     display: flex;
+    flex-direction: column;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -1089,9 +1090,7 @@
     letter-spacing: 0.02em;
     text-align: left;
     max-height: 24px;
-    padding-top: 24px;
-    /*padding-top: 10px;*/
-    padding-bottom: 24px;
+    padding-top: 10px;
     padding-left: 80px;
   }
 
