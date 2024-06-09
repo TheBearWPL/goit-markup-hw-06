@@ -1092,12 +1092,13 @@
     padding-top: 24px;
     /*padding-top: 10px;*/
     padding-bottom: 24px;
-    padding-left: 332px;
+    padding-left: 80px;
   }
 
   .ul-address {
     display: flex;
-    gap: 40px;
+    gap: 16px;
+    flex-direction: column;
   }
 
   .li-address {
