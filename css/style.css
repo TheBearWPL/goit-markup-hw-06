@@ -534,7 +534,7 @@
     padding-bottom: 100px;
     align-items: baseline;
     min-height: 664px;
-    max-width: 320px;
+    max-width: 767px;
     margin: auto;
   }
 
@@ -1512,7 +1512,7 @@
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    min-width: 768px;
+    max-width: 1157px;
   }
 
   .container-footer {
