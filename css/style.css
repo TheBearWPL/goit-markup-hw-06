@@ -680,6 +680,10 @@
   }
 
   .btn-footer {
+    display: none;
+  }
+
+  .btn-footer-mobile {
     display: flex;
     min-width: 165px;
     height: 40px;
@@ -695,6 +699,9 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
+    position: relative;
+    right: 40px;
+    top: 20px;
   }
 
   .footer-svg-subscribe {
