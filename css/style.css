@@ -657,7 +657,7 @@
   }
 
   .label-footer {
-    transform: translateX(-50%);
+    transform: translateX(-38%);
     margin-top: 16px;
   }
 
@@ -680,10 +680,6 @@
   }
 
   .btn-footer {
-    display: none;
-  }
-
-  .btn-footer-mobile {
     display: flex;
     min-width: 165px;
     height: 40px;
