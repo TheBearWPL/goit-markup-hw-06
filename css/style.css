@@ -1257,8 +1257,8 @@
   /* [main] -> [section] (second section contains) rules */
 
   .section-two {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .h-two-section-two {
