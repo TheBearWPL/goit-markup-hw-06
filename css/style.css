@@ -1275,9 +1275,9 @@
   }
 
   .ul-section-two {
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
-    gap: 24px;
   }
 
   .li-item-section-two {
