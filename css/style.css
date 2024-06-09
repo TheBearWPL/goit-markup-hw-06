@@ -1350,13 +1350,14 @@
   }
 
   .ul-section-three {
-    display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+    display: flex;
   }
 
   .li-section-three {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 2);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 4px;
