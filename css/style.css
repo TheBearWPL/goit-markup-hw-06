@@ -1345,11 +1345,12 @@
     gap: 24px;
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
   }
 
   .li-section-three {
     background-color: #ffffff;
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 216px) / 2);
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 4px;
