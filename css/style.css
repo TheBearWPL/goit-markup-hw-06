@@ -656,7 +656,6 @@
   }
 
   .label-footer {
-    transform: translateX(-38%);
     margin-top: 16px;
   }
 
@@ -1623,6 +1622,11 @@
     gap: 24px;
   }
 
+  .label-footer {
+    transform: translateX(-38%);
+    margin-top: 16px;
+  }
+
   .input-footer {
     width: 264px;
     height: 40px;
@@ -2057,6 +2061,8 @@
 
   .ul-address {
     display: flex;
+    flex-direction: row;
+    position: absolute;
     gap: 40px;
   }
 
@@ -2589,6 +2595,11 @@
   .form-footer {
     display: flex;
     gap: 24px;
+  }
+
+  .label-footer {
+    transform: translateX(-38%);
+    margin-top: 16px;
   }
 
   .input-footer {
