@@ -2484,22 +2484,11 @@
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
-    max-width: 1440px;
   }
 
   .container-footer {
     display: flex;
     align-items: baseline;
-  }
-
-  .tablet-footer {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .tablet-two {
-    display: flex;
-    flex-direction: row;
   }
 
   .container-footer-logo-p {
@@ -2542,6 +2531,15 @@
   .studio-footer-logo-text {
     color: #f4f4fd;
   }
+
+  /*.container-footer-social-media {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+  }*/
 
   .p-footer-two {
     font-weight: 500;
@@ -2598,11 +2596,6 @@
     gap: 24px;
   }
 
-  .label-footer {
-    transform: translateX(-38%);
-    margin-top: 16px;
-  }
-
   .input-footer {
     width: 264px;
     height: 40px;
@@ -2615,6 +2608,33 @@
     color: #fff;
     padding-left: 16px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  ::placeholder {
+    color: #fff;
+  }
+
+  .btn-footer {
+    display: flex;
+    min-width: 165px;
+    height: 40px;
+    padding: 8px 24px 8px 24px;
+    gap: 16px;
+    border-radius: 4px;
+    background-color: #4d5ae5;
+    color: #fff;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    border: none;
+  }
+
+  .footer-svg-subscribe {
+    margin-left: 16px;
+    fill: #fff;
   }
 
   ::placeholder {
