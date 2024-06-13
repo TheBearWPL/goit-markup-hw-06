@@ -1478,7 +1478,6 @@
     display: flex;
     position: relative;
     overflow: hidden;
-    max-width: 360px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
