@@ -1439,7 +1439,7 @@
 
   .li-section-four {
     background-color: #ffffff;
-    width: calc((100% - 48px) / 2);
+    /*width: calc((100% - 48px) / 2);*/
     transition-timing-function: ease-out;
     transition-duration: 500ms;
   }
@@ -2501,7 +2501,7 @@
   }
 
   .container-footer-logo-p {
-    margin-right: 120px;
+    margin-right: 0px;
   }
 
   .container-subs {
