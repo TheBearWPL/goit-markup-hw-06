@@ -105,8 +105,7 @@
 
   .mobile-menu-btn {
     margin: 16px;
-    position: absolute;
-    right: 16px;
+    padding-left: 280px;
   }
 
   .menu-mobile {
