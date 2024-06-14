@@ -281,7 +281,7 @@
   /* [main] -> [section] MOBILE (second section contains) rules */
 
   .section-two {
-    padding: 0;
+    padding: 96px 16px;
   }
 
   .h-two-section-two {
