@@ -582,15 +582,6 @@
     color: #f4f4fd;
   }
 
-  /*.container-footer-social-media {
-  font-weight: 500px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}*/
-
   .p-footer-two {
     font-weight: 500;
     font-size: 16px;
@@ -2501,7 +2492,7 @@
   }
 
   .container-footer-logo-p {
-    margin-right: 0px;
+    margin-right: 120px;
   }
 
   .container-subs {
@@ -2539,6 +2530,10 @@
 
   .studio-footer-logo-text {
     color: #f4f4fd;
+  }
+
+  .container-footer-social-media {
+    margin-right: 80px;
   }
 
   .p-footer-two {
