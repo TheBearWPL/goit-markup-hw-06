@@ -1516,6 +1516,7 @@
 
   .container-footer-logo-p {
     margin-right: 120px;
+    text-align: left;
   }
 
   .container-subs {
@@ -1525,7 +1526,17 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
-    margin-left: 80px;
+    margin-left: 108px;
+  }
+
+  .tablet-footer {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tablet-two {
+    display: flex;
+    flex-direction: row;
   }
 
   .logo-footer {
@@ -1554,15 +1565,6 @@
   .studio-footer-logo-text {
     color: #f4f4fd;
   }
-
-  /*.container-footer-social-media {
-  font-weight: 500px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  margin-bottom: 16px;
-}*/
 
   .p-footer-two {
     font-weight: 500;
@@ -2488,16 +2490,6 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
-  }
-
-  .tablet-footer {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .tablet-two {
-    display: flex;
-    flex-direction: row;
   }
 
   .container-footer-logo-p {
