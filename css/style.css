@@ -2589,6 +2589,7 @@
 
   .subscribe {
     margin-bottom: 16px;
+    right: 0px;
   }
 
   .form-footer {
@@ -2598,8 +2599,8 @@
   }
 
   .label-footer {
-    transform: translateX(-38%);
-    margin-top: 16px;
+    transform: translateX(0);
+    margin-top: 0px;
   }
 
   .input-footer {
@@ -2636,6 +2637,7 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
+    position: static;
   }
 
   .footer-svg-subscribe {
