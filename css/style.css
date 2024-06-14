@@ -1550,6 +1550,7 @@
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    margin-left: 15px;
   }
 
   .p-footer-one {
@@ -1614,6 +1615,9 @@
 
   .subscribe {
     margin-bottom: 16px;
+    position: relative;
+    text-align: left;
+    right: 100px;
   }
 
   .form-footer {
@@ -1660,6 +1664,10 @@
     letter-spacing: 0.04em;
     cursor: pointer;
     border: none;
+    position: relative;
+    top: -64px;
+    bottom: 81px;
+    left: 170px;
   }
 
   .footer-svg-subscribe {
